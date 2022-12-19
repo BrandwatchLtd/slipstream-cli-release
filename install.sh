@@ -64,8 +64,10 @@ get_binaries() {
   case "$PLATFORM" in
     darwin/386) BINARIES="slipstream" ;;
     darwin/amd64) BINARIES="slipstream" ;;
+    darwin/arm64) BINARIES="slipstream" ;;
     linux/386) BINARIES="slipstream" ;;
     linux/amd64) BINARIES="slipstream" ;;
+    linux/arm64) BINARIES="slipstream" ;;
     *)
       log_crit "platform $PLATFORM is not supported.  Make sure this script is up-to-date and file request at https://github.com/${PREFIX}/issues/new"
       exit 1
