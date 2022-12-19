@@ -8,7 +8,7 @@ anything other than what's absolutely necessary to perform the release.
 To install the binary you can run this script on your machine
 
 ```
-curl --silent https://raw.githubusercontent.com/BrandwatchLtd/slipstream-cli-release/master/install.sh | bash -s - -b /usr/local/bin
+curl --silent https://raw.githubusercontent.com/BrandwatchLtd/slipstream-cli-release/master/install.sh | sudo bash -s - -b /usr/local/bin
 ```
 
 Note: in order to install the binary to another location change `/usr/local/bin` to the path of your choice
